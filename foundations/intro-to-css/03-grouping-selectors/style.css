@@ -1,1 +1,13 @@
 /* Add CSS Styling */
+.firstbtn {
+  background-color: black;
+  color: #fff;
+}
+.secondbtn {
+  background-color: rgb(255, 255, 0);
+}
+.firstbtn,
+.secondbtn {
+  font-size: 28px;
+  font-style: Helvetica, "Times New Roman", sans-serif;
+}
