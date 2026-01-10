@@ -1,19 +1,29 @@
-.header  {
-  font-family: monospace;
+.header {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   background: papayawhip;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 15px;
+  padding: 8px;
 }
 
 .logo {
-  font-size: 48px;
-  font-weight: 900;
+  font-size: 55px;
+  font-weight: bold;
   color: tomato;
   background: white;
   padding: 4px 32px;
+  align-self: center;
 }
 
 ul {
   /* this removes the dots on the list items*/
   list-style-type: none;
+  display: flex;
+  gap: 15px;
+  padding: 25px;
 }
 
 a {
